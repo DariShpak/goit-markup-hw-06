@@ -679,3 +679,74 @@ img {
   border-color: var(--pressed-state-color);
   fill: var(--hero-section-color);
 }
+
+.modal-form {
+}
+
+.modal-cta {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--heading-text-color);
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: var(--subtle-text-color);
+}
+
+.form-field input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.form-field textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding-top: 8px;
+  padding-left: 16px;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: var(--subtle-text-color);
+  resize: none;
+}
+
+.policy {
+  display: flex;
+  text-align: center;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.04em;
+  color: #757575;
+}
+
+.policy label {
+  margin-left: 8px;
+}
+
+.policy a:visited {
+  color: var(--primary-color);
+}
+
+.form-btn {
+  padding: 16px 32px;
+  gap: 10px;
+  background: var(--primary-color);
+  color: var(--hero-section-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
