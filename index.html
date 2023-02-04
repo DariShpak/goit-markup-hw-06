@@ -436,27 +436,44 @@
             <use href="./images/modal.svg#icon-modal-close"></use>
           </svg>
         </button>
+        <p class="modal-cta">Leave your contacts and we will call you back</p>
 
         <form class="modal-form">
-          <p>Leave your contacts and we will call you back</p>
+          <ul class="form-list list">
+            <li class="form-field">
+              <label for="name">Name</label>
+              <input type="text" name="user-name" id="name" />
+            </li>
+            <li class="form-field">
+              <label for="tel">Phone</label>
+              <input type="tel" name="user-phone" id="tel" />
+            </li>
 
-          <label for="name">Name</label>
-          <input type="text" name="user-name" id="name" />
+            <li class="form-field">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </li>
 
-          <label for="tel">Phone</label>
-          <input type="tel" name="user-phone" id="tel" />
+            <li class="form-field">
+              <label for="comment">Comment</label>
+              <textarea
+                placeholder="Text input"
+                name="comment"
+                id="comment"
+                rows="8"
+              ></textarea>
+            </li>
+          </ul>
 
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
+          <p class="policy">
+            <input type="checkbox" name="policy" id="confirm" />
+            <label for="confirm"
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a>
+            </label>
+          </p>
 
-          <label for="comment">Comment</label>
-          <input type="text" name="comment" id="comment" />
-
-          <input type="checkbox" name="" id="confirm" />
-          <label for="confirm"
-            >I accept the terms and conditions of the Privacy Policy</label
-          >
-          <button type="submit">Send</button>
+          <button class="form-btn" type="submit">Send</button>
         </form>
       </div>
     </div>
