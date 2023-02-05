@@ -662,6 +662,7 @@ img {
   align-items: center;
   justify-content: center;
   margin-left: auto;
+  margin-bottom: 24px;
 
   width: 24px;
   height: 24px;
@@ -683,8 +684,7 @@ img {
 .modal-form {
 }
 
-.modal-cta {
-  margin-top: 24px;
+.modal-title {
   margin-bottom: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -709,6 +709,9 @@ img {
 .form-field input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .form-field textarea {
