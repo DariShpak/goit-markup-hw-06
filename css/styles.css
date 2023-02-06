@@ -696,22 +696,20 @@ img {
   padding-left: 38px;
   padding-top: 8px;
   padding-bottom: 8px;
+
+  margin-top: 4px;
+  margin-bottom: 8px;
+
   outline: transparent;
 
   transition: border-color var(--transition-value);
 }
 
 .modal-label {
-  margin-top: 8px;
-  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
   color: var(--subtle-text-color);
-}
-
-.modal-field {
-  margin-bottom: 8px;
 }
 
 .input-wrap {
@@ -735,6 +733,8 @@ img {
   border-radius: 4px;
   padding-top: 8px;
   padding-left: 16px;
+
+  margin-top: 4px;
   font-size: 12px;
   line-height: 1.33;
   letter-spacing: 0.04em;
@@ -780,7 +780,8 @@ img {
     fill var(--transition-value), border var(--transition-value);
 }
 
-.modal-check:checked + .check-text span {
+.modal-check:checked,
+.modal-check:focus + .check-text span {
   background-color: var(--pressed-state-color);
   border-color: var(--pressed-state-color);
   fill: var(--hero-section-color);
